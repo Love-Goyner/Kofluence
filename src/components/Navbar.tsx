@@ -12,12 +12,12 @@ const Navbar = () => {
 
     // Exact links from the reference site
     const navLinks = [
-        { name: 'Home', href: 'https://www.kofluence.com/' }, // Hidden on desktop usually if logo is there, but strictly following list
-        { name: 'Creator', href: 'https://www.kofluence.com/influencer-marketing-for-digital-content-creators/' },
-        { name: 'Brand', href: 'https://www.kofluence.com/influencer-marketing-for-brands/' },
-        { name: 'Case Studies', href: 'https://www.kofluence.com/influencer-marketing-case-studies/' },
-        { name: 'About', href: 'https://www.kofluence.com/about-us/' },
-        { name: 'Contact', href: 'https://www.kofluence.com/contact-us/' },
+        { name: 'Home', href: '' }, // Hidden on desktop usually if logo is there, but strictly following list
+        { name: 'Creator', href: '' },
+        { name: 'Brand', href: '' },
+        { name: 'Case Studies', href: '' },
+        { name: 'About', href: '' },
+        { name: 'Contact', href: '' },
     ];
 
     // Filter 'Home' from desktop menu if logo serves as home link, but let's keep it if reference has it explicitly or just follow typical pattern
@@ -27,7 +27,7 @@ const Navbar = () => {
     return (
         <nav className="w-full py-4 px-4 md:px-12 flex justify-between items-center bg-white relative z-50 mx-auto">
             {/* Logo Area */}
-            <Link href="https://www.kofluence.com/" className="flex-shrink-0">
+            <Link href="" className="flex-shrink-0">
                 <Logo />
             </Link>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
                     </Link>
                 ))}
 
-                <a href="https://www.kofluence.com/request-demo/">
+                <a href="">
                     <Button variant="outline" className="text-coral border-coral hover:bg-coral hover:text-white px-6 py-2.5 text-sm font-semibold rounded-full transition-all">
                         Request Demo
                     </Button>
@@ -71,7 +71,7 @@ const Navbar = () => {
                         </Link>
                     ))}
                     <div className="pt-2">
-                        <a href="https://www.kofluence.com/request-demo/" className="block w-full">
+                        <a href="" className="block w-full">
                             <Button variant="outline" className="w-full justify-center text-coral border-coral hover:bg-coral hover:text-white">
                                 Request Demo
                             </Button>
