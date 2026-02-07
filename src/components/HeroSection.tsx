@@ -42,7 +42,7 @@ const HeroSection = () => {
                         <span className="text-inherit"> to capitalize on the value of their social influence</span>
                     </div>
 
-                    <a href="https://www.kofluence.com/request-demo/" target="_blank" rel="noopener noreferrer">
+                    <a href="" target="_blank" rel="noopener noreferrer">
                         <Button variant="primary" className="text-base font-semibold px-8 py-3 bg-coral hover:bg-coral/90 text-white shadow-xl shadow-coral/30 rounded-full transition-transform hover:-translate-y-1">
                             Request Demo
                         </Button>

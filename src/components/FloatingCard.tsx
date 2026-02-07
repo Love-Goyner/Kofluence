@@ -53,7 +53,7 @@ const FloatingCard = () => {
                 <p className="text-gray-500 text-sm mb-6">
                     Get the latest in industry trends with Kofluence
                 </p>
-                <a href="https://www.kofluence.com/influencer-marketing-research-report/" target="_blank" rel="noopener noreferrer" className="block w-full">
+                <a href="" target="_blank" rel="noopener noreferrer" className="block w-full">
                     <Button variant="primary" className="w-full text-sm font-semibold bg-coral hover:bg-coral/90 text-white py-3 rounded-full shadow-lg shadow-coral/30">
                         Download Report
                     </Button>
